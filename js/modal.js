@@ -18,6 +18,8 @@ window.onload = function () {
 		modalBlock.style.transform = 'translateY(0%)';
 		modalImg.src = pic.src;
 		modalImg.alt = pic.alt;
+		modalImg.style.borderRadius = '25px';
+		modalImg.style.border = '2px solid white';
 	  caption.innerHTML = modalImg.alt;
 	}
 
