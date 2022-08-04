@@ -192,7 +192,7 @@ body, ul, li, p, a {
 	text-align: center;
 	color: white;
 	padding: 10px 0;
-	height: 150px;
+	
 }
 .modal__content, #caption{
 	animation-name: zoom;
