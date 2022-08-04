@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="./main.css" />
    </head>
   <body>
+    <!-- GALARY SECTION -->
+    <section class="section section__gallery">
+        <ul class="container gallery__container">
+            <li class="gallery__column">
+                <img class="gallery__img" src="./img/galary_1.jpg" alt="picture 1" >
+            </li>
+            <li class="gallery__column">
+                <img class="gallery__img" src="./img/galary_2.jpg" alt="picture 2">
+                <img class="gallery__img" src="./img/galary_3.jpg" alt="picture 3">
+            </li>
+            <li class="gallery__column">
+                <img class="gallery__img" src="./img/galary_4.jpg" alt="picture 4">
+                <img class="gallery__img img--big" src="./img/galary_5.jpg" alt="picture 5">
+            </li>
+            <li class="gallery__column">
+                <img class="gallery__img" src="./img/galary_6.jpg" alt="picture 6">
+                <img class="gallery__img" src="./img/galary_7.jpg" alt="picture 7">
+            </li>
+            <li class="gallery__column">
+                <img class="gallery__img" src="./img/galary_8.jpg" alt="picture 8">
+                <img class="gallery__img" src="./img/galary_9.jpg" alt="picture 9">
+            </li>
+            <li class="gallery__column">
+                <img class="gallery__img" src="./img/galary_10.jpg" alt="picture 10">
+            </li>
+        </ul>
+    </section>
+    <!-- SECTION CONTACTS -->
     <section class="section section__contacts">
       <h2 class="contacts__title">Our contacts</h2>
       <div class="container contacts__container">
@@ -97,5 +125,14 @@
       </ul>
   </div>
   </section>
+  <!-- MODAL WINDOW -->
+  <div id="my__modal" class="my__modal">
+	<span class="close" id="close">&times;</span>
+	<div class="modal__block" id="modal__block">
+		<img id="img01" class="modal__content" alt="">
+		<div id="caption"></div>
+	</div>
+</div>
+  <script src="./js/modal.js"></script>
   </body>
 </html>
