@@ -25,7 +25,7 @@ window.onload = function () {
 		modalWindow.style.display ='none';
 	}
 	span.onclick = function(){
-		modalBlock.style.transform = 'translateY(-500%)';
+		modalBlock.style.transform = 'translateY(-200%)';
 		setTimeout(	close, 500);
 	}
 }
