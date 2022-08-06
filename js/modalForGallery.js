@@ -14,7 +14,7 @@ window.onload = function () {
 		}
 	}
 	function openImg(pic){
-		modalWindow.style.display='flex';
+		modalWindow.classList.add('add_class');
 		modalBlock.style.transform = 'translateY(0%)';
 		modalImg.src = pic.src;
 		modalImg.alt = pic.alt;
@@ -24,7 +24,7 @@ window.onload = function () {
 	}
 
 	function close(){
-		modalWindow.style.display ='none';
+		modalWindow.classList.remove('add_class');
 	}
 	span.onclick = function(){
 		modalBlock.style.transform = 'translateY(-200%)';
